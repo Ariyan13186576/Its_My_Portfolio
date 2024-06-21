@@ -96,6 +96,10 @@
     flex-direction: row;
 }
 
+.box_5 a:hover{
+    transform: translateY(-7px);
+}
+
 .p1{
     font-size: 40px;
     color: red;
