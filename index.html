@@ -9,23 +9,113 @@
     <link rel="stylesheet" href="style.css">
     <script src="style.js"></script>
 </head>
-<!-- <body onload="alert('Welcome to my Website')"> -->
     <body>
 
                             <!--Navbar Section-->
 <div class="first_page">
-    <div class="header">
+    <style>
+        .overlay {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-x: hidden;
+          transition: 0.5s;
+        }
+        
+        .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+        }
+        
+        .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 40px;
+          color: #b3b0b0;
+          display: block;
+          transition: 0.3s;
+          font-family: sans-serif;
+        }
+        
+        .overlay a:hover, .overlay a:focus {
+          color: #ff0000;
+        }
+        
+        .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px;
+        }
+
+        .navbar_logo{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav_logo{
+            position: relative;
+        }
+        
+        @media screen and (max-height: 768px) {
+          .overlay a {font-size: 20px}
+          .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+          }
+        }
+        </style>
+</head>
+<body>
+        <div class="nav_logo">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">Home</a>  
+            <a href="about.htm">About</a>  
+            <a href="NAZMUS SAKIB (2).pdf">Portfolio</a>  
+            <a href="#Service_1">Service</a>  
+            <a href="index_contact.htm">Contact</a>
+        </div>
+      </div>
+      <div class="navbar_logo">
+        <div class="logo">
+            <img src="navbar.png" alt="">
+        </div><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;&nbsp;&nbsp;&nbsp;</span></div></div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+    <!--<nav class="header">
         <div class="logo">
             <img src="navbar.png" alt="">
         </div>
+        <i class="fa fa-bars menu-icon"></i>
         <div class="optn">
-    <a href="#">Home</a>  
-    <a href="about.htm">About</a>  
-    <a href="NAZMUS SAKIB (2).pdf">Portfolio</a>  
-    <a href="#Service_1">Service</a>  
-    <a href="index_contact.htm">Contact</a>  
-</div>
-    </div>
+            <a href="#">Home</a>  
+            <a href="about.htm">About</a>  
+            <a href="NAZMUS SAKIB (2).pdf">Portfolio</a>  
+            <a href="#Service_1">Service</a>  
+            <a href="index_contact.htm">Contact</a>  
+        </div>
+    </nav>-->
 
                             <!--Introduce Section-->
  <div class="about_me_1">
