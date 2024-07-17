@@ -1,0 +1,440 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 50px;
+    width: 150px;
+
+}
+
+.optn{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.optn a{
+    margin: 2px 10px 0px 10px ;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+    
+}
+
+.optn a:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border-radius: 10px;
+  }
+.all_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-image:linear-gradient(to right,#c8ff00,#ffffff,#c8ff00,#ffffff,#c8ff00) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+    /* box-shadow: 0px -10px 40px #5eff00; */
+}
+
+.social_link,
+.contact_info,
+.impo_link{
+    line-height: 30px;
+    width: 20%;
+    margin:30px 0px 10px 50px;
+}
+
+.me_info{
+    width: 40%;
+    margin:30px 0px 10px 50px;
+}
+
+.p_11{
+    font-size: 45px;
+}
+.p_22{
+    font-size: 20px;
+    line-height: 30px;
+}
+.p_33{
+    font-size: 30px;
+}
+
+.impo_link a{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.p_44{
+    font-size: 30px;
+}
+
+.as{
+    font-size: 20px;
+}
+
+.p_55{
+    font-size: 30px;
+}
+
+.social_link a{
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.social_link a:hover,
+.impo_link a:hover{
+    color: blue;
+}
+
+.footer_foot{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 59, 59);
+    margin-top: 0px;
+
+}
+
+.footer_foot p{
+    font-size: 20px;
+    text-align: center;
+    font-family: arial;
+    color: white;
+}
+
+.all_footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_p{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p_pp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.cont_comment{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.comment_sec{
+    height: auto;
+    width: 40%;
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="mail"]{
+    height: 40px;
+    width: 80%;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+input[type="button"]{
+    height: 45px;
+    width: 50%;
+    padding-left: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 10px 0px 20px 30px;
+    background-color: #3c1fb4;
+    color:white;
+    border: none;
+}
+
+input[type="button"]:hover{
+    background-color: white;
+    border: 2px solid #3c1fb4;
+    color: black;
+}
+
+textarea{
+    height: 150px;
+    width: 80%;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.contact_justme{
+    width: 40%;
+    margin-left: 100px;
+}
+
+.div_11,
+.div_22,
+.div_33{
+    width: auto;
+    height: 90px;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(96, 96, 96);
+}
+
+.div_11 p,
+.div_22 p,
+.div_33 p{
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.div_11 i,
+.div_22 i,
+.div_33 i{
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px white;
+    margin-right: 10px;
+}
+
+.hr{
+    margin-left: 100px;
+    width: 2px;
+    height: 300px;
+    color:black;
+    text-align: center;
+    background-color: black;
+    border:none
+}
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1080px){
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1022px) {
+    .all_info{
+        box-shadow:0px 0px 50px #d3f84c;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: start;
+        margin-top: 70px;
+    }
+    .p_22{
+        width: 100%;
+    }
+    .me_info,
+    .social_link,
+    .contact_info,
+    .impo_link{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 766px) {
+    .all_info{
+        box-shadow:0px 0px 50px #d3f84c;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: start;
+        margin-top: 70px;
+        background-image: linear-gradient(to top, #c8ff00, #ffffff, #c8ff00, #ffffff, #c8ff00);
+    }
+    .me_info,
+    .social_link,
+    .contact_info,
+    .impo_link{
+        width: 100%;
+        height: auto;
+        margin: 20px 0px 20px 0px;
+    }
+    .p_11,
+    .p_22,
+    .p_33,
+    .p_44,
+    .p_55{
+        margin:10px 20px 10px 50px;
+    }
+    .contact_info p{
+        margin:10px 20px 10px 50px;
+    }
+    .impo_link a,
+    .social_link a{
+        margin:10px 20px 10px 50px;
+    }
+    .footer_foot p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .all_info{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-image: linear-gradient(to top,#c8ff00,#ffffff,#c8ff00,#ffffff,#c8ff00);
+        margin-top: 60px;
+    }
+    .me_info,
+    .social_link,
+    .contact_info,
+    .impo_link{
+        width: auto;
+    }
+    .p_22{
+        line-height: 25px;
+        margin-right: 20px;
+    }
+   .footer_foot p{
+    font-size: 15px;
+    text-align: center;
+   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .all_info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        align-items: start;
+        background-image: linear-gradient(to top, #c8ff00, #ffffff, #c8ff00, #ffffff, #c8ff00);;
+    }
+    .social_link,
+    .contact_info,
+    .impo_link,
+    .me_info{
+        width: auto;
+        margin-right: 17px;
+    }
+    .p_11{
+        font-size: 40px;
+    }
+    .footer_foot p{
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .optn{
+        display: none;
+    }
+    .cont_comment{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .comment_sec{
+        order: 1;
+        height: auto;
+        width: 100%;
+    }
+    .comment_sec input,
+    .comment_sec textarea{
+        width: 90%;
+        border: 1px solid black;
+    }
+    input[type=button]{
+        width: 50%;
+    }
+    .contact_justme{
+        order: 2;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hr{
+        display: none;
+    }
+    .p_pp,
+    .p_p{
+        text-align: center;
+    }
+    .all_info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        align-items: start;
+        background-image: linear-gradient(to top, #c8ff00, #ffffff, #c8ff00, #ffffff, #c8ff00);
+    }
+    .social_link,
+    .contact_info,
+    .impo_link,
+    .me_info{
+        width: auto;
+        margin-right: 17px;
+    }
+    .p_11{
+        font-size: 40px;
+    }
+    .footer_foot p{
+        font-size: clamp(13px);
+        text-align: center;
+    }
+}
